@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header&footer2.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <!-- <link rel="stylesheet" href="../css/checkout.css"> -->
+    <link rel="stylesheet" href="../css/INFO20005.css">
+    <script type="text/javascript" src="../js/header2.js"></script>
+    <script type="text/javascript" src="../js/menu.js"></script>
+    <title>Checkout</title>
+</head>
+
+<body>
+    <div id="checkout_mobile">
+        <!-- Mobile version checkout -->
+        <div class="navigation_bar">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li>&gt</li>
+                <li><a href="shopping_cart.html">Shopping Cart</a></li>
+                <li>&gt</li>
+                <li><a href="#">Checkout</a></li>
+            </ul>
+        </div>
+
+        <div class="page_name">Checkout</div>
+        <div class="checkout_top_page">
+            <div>Order Summary</div>
+            <div>$ 40.00</div>
+        </div>
+
+        <div class="checkout_middle_page">
+            <div class="middle_page_first_title" id="middle_page_first_title">Costumer Information</div>
+            <div class="middle_userInfo" id="middle_userInfo">
+                <input type="text" placeholder=" First Name" id="fistName">
+                <input type="text" placeholder=" Last Name" id="lastName">
+                <input type="text" placeholder=" Email Address" id="email_address">
+                <div class="btn_Continue">
+                    <button value="Continue" id="Continue">Continue</button>
+                </div>
+            </div>
+        </div>
+        <!-- Shipping Address -->
+        <div class="checkout_middle_page">
+            <div class="middle_page_first_title_change" id="middle_page_first_title_change">Shipping Address</div>
+            <div class="middle_userInfo_second" style="display: none;" id="middle_userInfo_two">
+                <div class="content_mobile">
+                    <input type="text" placeholder="City">
+                    <input type="text" placeholder="Country/Region">
+                    <input type="text" placeholder="Street Name">
+                    <input type="text" placeholder="Street No.">
+                    <input type="text" placeholder="Address">
+                    <input type="text" placeholder="Postcode">
+                    <input type="text" placeholder="Phone No.">
+                    <div class="btn_Continue">
+                        <button id="back_btn">Back</button>
+                        <button>Continue</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Payment -->
+        <div class="checkout_middle_page">
+            <div class="middle_page_first_title_change">Payment</div>
+        </div>
+
+        <div class="returns">
+            <a href="shopping_cart.html">Return to Cart</a>
+        </div>
+
+    </div>
+    <!-- Desktop version checkout -->
+    <div id="checkout_desktop">
+
+        <div style="margin-top: 1.5rem;" class="navigation_bar_desktop">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li>&gt</li>
+                <li><a href="shopping_cart.html">Shopping Cart</a></li>
+                <li>&gt</li>
+                <li><a href="#">Checkout</a></li>
+            </ul>
+        </div>
+
+        <div class="page_name_desktop">Checkout</div>
+
+        <div class="checkout_top_page">
+            <div class="top_page_left">
+                <div class="content">
+                    <div class="pc_title" id="pc_title">
+                        <h3>Costumer Information</h3>
+                    </div>
+                    <div class="top_page_user" id="top_page_user">
+                        <input type="text" placeholder=" First Name" id="first_Name">
+                        <input type="text" placeholder=" Last Name" id="last_Name">
+                        <input style="margin-bottom: 0.157rem;" type="text" placeholder=" Email Address" id="email_Address">
+                        <div class="pc_continue1">
+                            <button style="cursor: pointer;" id="btn_continue">Continue</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="pc_titles" id="pc_titles">
+                        <h3>Shipping Address</h3>
+                    </div>
+                    <div class="top_page_user1" style="display: none;" id='top_page_user1'>
+                        <input style="margin-top: 0.26rem;" type="text" placeholder=" City">
+                        <input type="text" placeholder=" Country/Region">
+                        <input type="text" placeholder=" Street Name">
+                        <input type="text" placeholder=" Street No.">
+                        <input type="text" placeholder=" Address">
+                        <input type="text" placeholder=" Postcode">
+                        <input style="margin-bottom: 0.05rem;" type="text" placeholder=" Phone No.">
+                        <div class="pc_continue">
+                            <button style="cursor: pointer;" id="btn_back">Back</button>
+                            <button style="cursor: pointer;" id="btn_continue">Continue</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="pc_titles">
+                        <h3>Payment</h3>
+                    </div>
+                </div>
+                <div class="pc_return"><span><a href="shopping_cart.html">Return to cart</a></span></div>
+            </div>
+            <div class="top_page_right">
+                <div class="order_summary">
+                    <h5>Order Summary</h5>
+                    <div class="order_box">
+                        <ul>
+                            <li><img src="../images/preorder5.png" alt=""></li>
+                            <li>
+                                <p>Arkham Horror * 1</p>
+                            </li>
+                            <li>
+                                <p>$ 79.99</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="list">
+                        <li>
+                            <span>Subtotal</span><span> $ 79.99</span>
+                        </li>
+                        <li>
+                            <span>Shipping</span><span>Free</span>
+                        </li>
+                    </ul>
+                    <ul class="money">
+                        <li><span>Total</span><span>$79.99</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script type=" text/javascript " src="../js/footer.js "></script>
+
+</html>
