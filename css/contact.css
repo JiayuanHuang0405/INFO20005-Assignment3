@@ -1,0 +1,238 @@
+    /* screen width < 1200px */
+    
+    @media screen and (max-width:1200px) {
+        #contact_desktop {
+            display: none;
+        }
+        .navigation_bar ul a {
+            color: black;
+        }
+        .navigation_bar {
+            width: 100%;
+            height: 31px;
+            border-bottom: 1px solid black;
+            margin-top: 55px;
+        }
+        .navigation_bar ul {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            padding-left: 5px;
+            font-size: 16px;
+            font-family: 'Futura Std';
+        }
+        .navigation_bar ul li {
+            padding-right: 3px;
+        }
+        .page_name {
+            height: 30px;
+            width: 102px;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            font-family: 'Futura Std';
+            font-weight: 600;
+            text-align: center;
+            line-height: 30px;
+            margin: 0 auto;
+            margin-top: 21px;
+        }
+        .part1 {
+            width: 100%;
+            height: 96px;
+            background-color: #E5E3E3;
+            border: #707070 1px solid;
+            font-family: 'Futura Std';
+            padding-left: 18px;
+            padding-top: 7px;
+            margin-top: 6px;
+        }
+        .part2 {
+            width: 100%;
+            height: 173px;
+            margin-top: 20px;
+        }
+        .part2 img {
+            width: 100%;
+        }
+        .part3 {
+            width: 91.47%;
+            height: 303px;
+            border: solid 1px black;
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+        .part3 p {
+            width: 100%;
+            height: 47px;
+            background-color: black;
+            color: white;
+            font-family: Impact;
+            font-size: 22px;
+            line-height: 47px;
+            padding-left: 20px;
+        }
+        .part3 input {
+            width: 95.04%;
+            height: 30px;
+            font-family: "Futura Std";
+            border: 1px solid black;
+            font-size: 16px;
+            margin-top: 10px;
+            margin-left: 9px;
+            padding-left: 9px;
+            color: #AFAFAF;
+            background-color: #F5F5F5;
+        }
+        .part3 input:nth-of-type(1) {
+            margin-top: 6px;
+        }
+        .part3 input:nth-of-type(4) {
+            margin-top: 18px;
+            height: 84px;
+            padding-bottom: 45px;
+        }
+        .part3 button {
+            width: 23.32%;
+            height: 27px;
+            background-color: #069736;
+            color: white;
+            font-family: 'Impact';
+            font-size: 14px;
+            border: none;
+            border: 1px solid black;
+            margin-left: 254px;
+            margin-top: 6px;
+        }
+    }
+    
+    @media screen and (min-width: 280px) and (max-width: 360px) {
+        .part1 {
+            font-size: 14px;
+        }
+    }
+    
+    @media screen and (min-width:768px) and (max-width:1200px) {
+        .part2 {
+            width: 60%;
+            height: 190px;
+            margin: 20px auto;
+        }
+        .part2 img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    /* screen width > 1200px */
+    
+    @media screen and (min-width: 1200px) {
+        #contact_mobile {
+            display: none;
+        }
+        .navigation_bar_desktop ul a {
+            color: black;
+        }
+        .navigation_bar_desktop {
+            width: 100%;
+            height: 0.67rem;
+            border-bottom: 1px solid black;
+            margin-top: 1.54rem;
+        }
+        .navigation_bar_desktop ul {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            padding-left: 0.126rem;
+            font-size: 0.335rem;
+            font-family: 'Futura Std';
+        }
+        .navigation_bar_desktop ul li {
+            padding-right: 0.115rem;
+        }
+        .page_name_desktop {
+            height: 1.34rem;
+            width: 4.564rem;
+            background-color: black;
+            color: white;
+            font-size: 0.69rem;
+            font-family: 'Futura Std';
+            font-weight: 600;
+            text-align: center;
+            line-height: 1.34rem;
+            margin: 0 auto;
+            margin-top: 0.523rem;
+        }
+        .middle_page_desktop {
+            width: 88.54%;
+            height: 8.7rem;
+            margin: 0 auto;
+            margin-top: 0.2827rem;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1.3295rem;
+        }
+        .part1_desktop {
+            width: 41.65%;
+            height: 46.51%;
+            background-color: #E5E3E3;
+            border: #707070 1px solid;
+            font-family: 'Futura Std';
+            padding-left: 0.4397rem;
+            padding-top: 0.25125rem;
+            font-family: 'Futura Std';
+            font-size: 0.5025rem;
+        }
+        .part3_desktop {
+            width: 55.47%;
+            height: 100%;
+            border: solid 1px black;
+        }
+        .part3_desktop p {
+            width: 100%;
+            height: 1.131rem;
+            background-color: black;
+            color: white;
+            font-family: Impact;
+            font-size: 0.5234rem;
+            line-height: 1.131rem;
+            padding-left: 0.4711rem;
+        }
+        .part3_desktop input {
+            width: 95.55%;
+            height: 0.8166rem;
+            font-family: "Futura Std";
+            border: 1px solid black;
+            font-size: 0.3978rem;
+            margin-left: 0.23rem;
+            padding-left: 0.23rem;
+            color: #AFAFAF;
+            background-color: #F5F5F5;
+        }
+        .part3_desktop input:nth-of-type(4) {
+            height: 2.167rem;
+            padding-bottom: 1.3rem;
+        }
+        .part3_desktop button {
+            width: 25.24%;
+            height: 0.8375rem;
+            background-color: #069736;
+            color: white;
+            font-family: 'Impact';
+            font-size: 0.41875rem;
+            border: none;
+            border: 1px solid black;
+            margin-left: 7rem;
+        }
+        .part2_desktop {
+            width: 88.54%;
+            height: 8.197rem;
+            margin: 0 auto;
+            margin-bottom: 1.779rem;
+        }
+        .part2_desktop img {
+            width: 100%;
+        }
+    }
