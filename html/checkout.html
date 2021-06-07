@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header&footer2.css">
+    <link rel="stylesheet" href="../css/INFO20005.css">
+    <script type="text/javascript" src="../js/header2.js"></script>
+    <script type="text/javascript" src="../js/menu.js"></script>
+
+    <title>Checkout</title>
+</head>
+
+<body>
+    <div id="checkout_mobile">
+        <!-- Mobile version checkout -->
+        <div class="navigation_bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>&gt</li>
+                <li><a href="shopping_cart.html">Shopping Cart</a></li>
+                <li>&gt</li>
+                <li><a href="#">Checkout</a></li>
+            </ul>
+        </div>
+
+        <div class="page_name">Checkout</div>
+        <div class="checkout_top_page">
+            <div>Order Summary</div>
+            <div>$ 40.00</div>
+        </div>
+        <!-- Customer Information -->
+        <div class="checkout_middle_page">
+            <div class="middle_page_first_title" id="middle_page_first_title">Costumer Information</div>
+            <div class="middle_userInfo" id="middle_userInfo">
+                <input type="text" placeholder="First Name" id="fistName">
+                <input type="text" placeholder="Last Name" id="lastName">
+                <input type="text" placeholder="Email Address" id="email_address">
+                <div class="btn_Continue">
+                    <button value="Continue" id="Continue">Continue</button>
+                </div>
+            </div>
+        </div>
+        <!-- Shipping Address -->
+        <div class="checkout_middle_page">
+            <div class="middle_page_first_title_change" id="middle_page_first_title_change">Shipping Address</div>
+            <div class="middle_userInfo_second" style="display: none;" id="middle_userInfo_two">
+                <div class="content_mobile">
+                    <input type="text" placeholder="City" id="m_City">
+                    <input type="text" placeholder="Country/Region" id="m_Country">
+                    <input type="text" placeholder="Street Name" id="m_Street_Name">
+                    <input type="text" placeholder="Street No." id="m_Street_No">
+                    <input type="text" placeholder="Address" id="m_Address">
+                    <input type="text" placeholder="Postcode" id="m_Postcode">
+                    <input type="text" placeholder="Phone No." id="m_phone_No">
+                    <div class="btn_Continue">
+                        <button id="back_btn">Back</button>
+                        <button id="md_continue_Shipping">Continue</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Payment -->
+        <div class="checkout_middle_page">
+            <div class="middle_page_first_title_change2">Payment</div>
+            <div class="middle_userInfo_third" id="middle_userInfo_three" style="display: none;">
+                <div class="content_mobile">
+                    <input type="text" placeholder="Credit Card" id="md_credit_card_number">
+                    <input type="text" placeholder="Exp Month" id="md_exp_month">
+                    <input type="text" placeholder="Exp Year" id="md_exp_year">
+                    <input type="text" placeholder="CVV" id="md_cvv">
+                    <div class="btn_Continue">
+                        <button id="back_btn_Payment">Back</button>
+                        <button id="finishs">Finish</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="returns">
+            <a href="shopping_cart.html">Return to Cart</a>
+        </div>
+
+    </div>
+    <!-- Desktop version checkout -->
+    <div id="checkout_desktop">
+        <div style="margin-top: 1.5rem;" class="navigation_bar_desktop">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>&gt</li>
+                <li><a href="shopping_cart.html">Shopping Cart</a></li>
+                <li>&gt</li>
+                <li><a href="#">Checkout</a></li>
+            </ul>
+        </div>
+
+        <div class="page_name_desktop">Checkout</div>
+
+        <div class="checkout_top_page">
+            <div class="top_page_left">
+                <!-- Customer Information -->
+                <div class="content">
+                    <div class="pc_title" id="pc_title">
+                        <h3>Costumer Information</h3>
+                    </div>
+                    <div class="top_page_user" id="top_page_user">
+                        <input type="text" placeholder="First Name" id="first_Name">
+                        <input type="text" placeholder="Last Name" id="last_Name">
+                        <input style="margin-bottom: 0.157rem;" type="text" placeholder="Email Address" id="email_Address">
+                        <div class="pc_continue1">
+                            <button id="btn_continue">Continue</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Shipping Address -->
+                <div class="content">
+                    <div class="pc_titles" id="pc_titles">
+                        <h3>Shipping Address</h3>
+                    </div>
+                    <div class="top_page_user1" style="display: none;" id='top_page_user1'>
+                        <input style="margin-top: 0.26rem;" type="text" placeholder="City" id="P_City">
+                        <input type="text" placeholder="Country/Region" id="P_Country">
+                        <input type="text" placeholder="Street Name" id="P_Street_Name">
+                        <input type="text" placeholder="Street No." id="P_Street_No">
+                        <input type="text" placeholder="Address" id="P_Address">
+                        <input type="text" placeholder="Postcode" id="P_Postcode">
+                        <input style="margin-bottom: 0.05rem;" type="text" placeholder="Phone No." id="P_phone_No">
+                        <div class="pc_continue">
+                            <button id="btn_back">Back</button>
+                            <button id="btn_continue_two">Continue</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Payment -->
+                <div class="content">
+                    <div class="pc_titles2" id="pc_titles2">
+                        <h3>Payment</h3>
+                    </div>
+                    <div class="top_page_user2" id='top_page_user2' style="display: none;">
+                        <input style="margin-top: 0.26rem;" type="text" placeholder="Credit Card Number" id="credit_card_number">
+                        <input type="text" placeholder="Exp Month" id="exp_month">
+                        <input type="text" placeholder="Exp Year" id="exp_year">
+                        <input style="margin-bottom: 0.05rem;" type="text" placeholder="CVV" id="cvv">
+                        <div class="pc_continue">
+                            <button id="btn_back_Payment">Back</button>
+                            <button id="finish">Finish</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pc_return"><span><a href="shopping_cart.html">Return to cart</a></span></div>
+            </div>
+            <!-- Order summary -->
+            <div class="top_page_right">
+                <div class="order_summary">
+                    <h5>Order Summary</h5>
+                    <div class="order_box">
+                        <ul>
+                            <li><img src="../images/preorder5.png" alt=""></li>
+                            <li>
+                                <p>Arkham Horror * 1</p>
+                            </li>
+                            <li>
+                                <p>$ 79.99</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="list">
+                        <li>
+                            <span>Subtotal</span><span> $ 79.99</span>
+                        </li>
+                        <li>
+                            <span>Shipping</span><span>Free</span>
+                        </li>
+                    </ul>
+                    <ul class="money">
+                        <li><span>Total</span><span>$79.99</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type=" text/javascript " src="../js/footer.js "></script>
+<script type="text/javascript" src="../js/checkout.js"></script>
+
+</html>

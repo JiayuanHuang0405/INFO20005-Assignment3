@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header&footer2.css">
+    <link rel="stylesheet" href="../css/INFO20005.css">
+    <script type="text/javascript" src="../js/header2.js"></script>
+    <script type="text/javascript" src="../js/menu.js"></script>
+    <title>Product Listing</title>
+</head>
+
+<body>
+    <!-- Mobile version product listing -->
+    <div id="product_listing_mobile">
+        <div class="navigation_bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>&gt</li>
+                <li><a href="#">All Games</a></li>
+            </ul>
+        </div>
+
+        <div class="page_name">Store</div>
+
+        <div class="results_line">
+            <span id="filter">Filters</span>
+        </div>
+        <!-- Mobile product_listing filters -->
+        <i class="a" id="a">1</i>
+        <div id="search_results_list">
+            <div class="Filters_mobile" id="Filters_mobile">
+                <h5>Categories&nbsp;&nbsp;-</h5>
+                <ul>
+                    <li><input type="checkbox" name="Categories" id="1">&nbsp;<label for="1">Preorder</label></li>
+                    <li><input type="checkbox" name="Categories" id="2">&nbsp;<label for="2">Board Game</label></li>
+                    <li><input type="checkbox" name="Categories" id="3">&nbsp;<label for="3">Card Game</label></li>
+                    <li><input type="checkbox" name="Categories" id="4">&nbsp;<label for="4">Dice Game</label></li>
+                    <li><input type="checkbox" name="Categories" id="5">&nbsp;<label for="5">Puzzles</label></li>
+                    <li><input type="checkbox" name="Categories" id="6">&nbsp;<label for="6">Role Playing Game</label></li>
+                    <li><input type="checkbox" name="Categories" id="7">&nbsp;<label for="7">Family Game</label></li>
+                </ul>
+                <h5>Player&nbsp;&nbsp;+</h5>
+                <h5>Duration&nbsp;&nbsp;+</h5>
+                <h5>Price&nbsp;&nbsp;-</h5>
+                <div class="move_line">
+                    <span>$5</span>
+                    <span>
+                            <p></p>
+                        </span>
+                    <span>$200</span>
+                </div>
+                <div class="select_button">
+                    <div>Clear Filters</div>
+                    <div>Apply Filters</div>
+                </div>
+            </div>
+            <!-- Mobile main body product_listing -->
+            <ul class="search_results_pic">
+                <li>
+                    <a style="line-height: 0;" href="product.html"><img src="../images/search_results1-mobile.png" alt="search_results1-mobile"></a>
+                    <a style="color: inherit;" href="product.html">
+                        <p>Spyfall: DC Horror</p>
+                    </a>
+                    <p style="font-weight: inherit" id="typeface">$ 40.00</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </li>
+                <li>
+                    <img src="../images/product_listing2.png" alt="search_results2-mobile">
+                    <p>SOS Dino</p>
+                    <p id="typeface">$ 50.00</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </li>
+                <li>
+                    <img src="../images/product_listing3.png" alt="search_results3-mobile">
+                    <p>Alhambra</p>
+                    <p id="typeface">$ 80.00</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </li>
+                <li>
+                    <img src="../images/product_listing4.png" alt="search_results4-mobile">
+                    <p>Tokaido</p>
+                    <p id="typeface">$ 70.00</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </li>
+                <li>
+                    <img src="../images/product_listing5.png" alt="search_results5-mobile">
+                    <p>Mountains Madness</p>
+                    <p id="typeface">$ 100.00</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </li>
+                <li>
+                    <img src="../images/product_listing6.png" alt="search_results6-mobile">
+                    <p>Border Ride</p>
+                    <p id="typeface">$ 65.00</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </li>
+            </ul>
+        </div>
+        <!-- Mobile bottom page -->
+        <div class="page">
+            <span>&lt;&nbsp;Previous&nbsp;</span>
+            <span class="number">1</span>
+            <span class="number">2</span>
+            <span class="number">3</span>
+            <span class="number">4</span>
+            <span>&nbsp;Next&nbsp;&gt;</span>
+        </div>
+    </div>
+    <!-- Desktop version product listing -->
+    <div id="product_listing_desktop">
+        <div class="navigation_bar_desktop">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>&gt</li>
+                <li><a href="#">All Games</a></li>
+            </ul>
+        </div>
+
+        <div class="page_name_desktop">Store</div>
+
+        <section class="line1">
+            <select>
+            <option selected>Sort By</option>
+            <option>Price (low to high)</option>
+            <option>Price (high to low)</option>
+            <option>Name A-Z</option>
+            <option>Name Z-A</option>
+        </select>
+        </section>
+        <!-- Desktop product_listing filters -->
+        <div id="results">
+            <div class="Filters">
+                <h2>Filters</h2>
+                <h3>Categories&nbsp;&nbsp;&nbsp;-</h3>
+                <ul>
+                    <li><input type="checkbox" name="Categories" id="1">&nbsp;&nbsp;<label for="1">Preorder</label></li>
+                    <li><input type="checkbox" name="Categories" id="2">&nbsp;&nbsp;<label for="2">Board Game</label></li>
+                    <li><input type="checkbox" name="Categories" id="3">&nbsp;&nbsp;<label for="3">Card Game</label></li>
+                    <li><input type="checkbox" name="Categories" id="4">&nbsp;&nbsp;<label for="4">Dice Game</label></li>
+                    <li><input type="checkbox" name="Categories" id="5">&nbsp;&nbsp;<label for="5">Puzzles</label></li>
+                    <li><input type="checkbox" name="Categories" id="6">&nbsp;&nbsp;<label for="6">Role Playing Game</label></li>
+                    <li><input type="checkbox" name="Categories" id="7">&nbsp;&nbsp;<label for="7">Family Game</label></li>
+                </ul>
+                <h3>Player&nbsp;&nbsp;&nbsp;-</h3>
+                <ul>
+                    <li><input type="checkbox" name="Categories" id="8">&nbsp;&nbsp;<label for="8">1 Player</label></li>
+                    <li><input type="checkbox" name="Categories" id="9">&nbsp;&nbsp;<label for="9">2 Players</label></li>
+                    <li><input type="checkbox" name="Categories" id="10">&nbsp;&nbsp;<label for="10">3-4 Players</label></li>
+                    <li><input type="checkbox" name="Categories" id="11">&nbsp;&nbsp;<label for="11">5-8 Players</label></li>
+                    <li><input type="checkbox" name="Categories" id="12">&nbsp;&nbsp;<label for="12">8+ Players</label></li>
+                </ul>
+                <h3>Duration&nbsp;&nbsp;&nbsp;+</h3>
+                <h3>Price&nbsp;&nbsp;&nbsp;-</h3>
+                <div class="move_line_desktop">
+                    <span>$5</span>
+                    <span>
+                    <p></p>
+                </span>
+                    <span>$200</span>
+                </div>
+                <div class="select_button_desktop">
+                    <div>Clear Filters</div>
+                    <div>Apply Filters</div>
+                </div>
+            </div>
+            <!-- Desktop main body product_listing -->
+            <div class="search_results_list_desktop">
+                <ul class="search_results_pic_desktop">
+                    <li>
+                        <a style="line-height: 0;" href="product.html"><img src="../images/search_results1-desktop.png" alt="search_results1-desktop"></a>
+                        <a style="color: inherit;" href="product.html">
+                            <p>Arkham Horrorr</p>
+                        </a>
+                        <p style="font-size: 0.272rem;font-weight: inherit;" id="typyface">$ 79.99</p>
+                        <button onclick="addToCart()">Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="../images/product_listing2-desktop.png" alt="search_results2-desktop">
+                        <p>Dino SOS</p>
+                        <p id="typyface">$ 50.00</p>
+                        <button onclick="addToCart()">Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="../images/product_listing3-desktop.png" alt="search_results3-desktop">
+                        <p>Alhambra</p>
+                        <p id="typyface">$ 80.00</p>
+                        <button onclick="addToCart()">Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="../images/product_listing4-desktop.png" alt="search_results4-desktop">
+                        <p>Tokaido</p>
+                        <p id="typyface">$ 70.00</p>
+                        <button onclick="addToCart()">Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="../images/product_listing5-desktop.png" alt="search_results5-desktop">
+                        <p>Mountains Madness</p>
+                        <p id="typyface">$ 100.00</p>
+                        <button onclick="addToCart()">Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="../images/product_listing6-desktop.png" alt="search_results6-desktop">
+                        <p>Border Ride</p>
+                        <p id="typyface">$ 65.00</p>
+                        <button onclick="addToCart()">Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="../images/product_listing7-desktop.png" alt="search_results7-desktop">
+                        <p>Tiny Towns</p>
+                        <p id="typyface">$ 76.00</p>
+                        <button onclick="addToCart()">Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="../images/product_listing8-desktop.png" alt="search_results8-desktop">
+                        <p>Quacks</p>
+                        <p id="typyface">$ 39.99</p>
+                        <button onclick="addToCart()">Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="../images/search_results9-desktop.png" alt="search_results9-desktop">
+                        <p>Azul</p>
+                        <p id="typyface">$ 37.00</p>
+                        <button onclick="addToCart()">Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="../images/search_results10-desktop.png" alt="search_results10-desktop">
+                        <p>Down Force</p>
+                        <p id="typyface">$ 36.00</p>
+                        <button onclick="addToCart()">Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="../images/search_results11-desktop.png" alt="search_results11-desktop">
+                        <p>Welcome</p>
+                        <p id="typyface">$ 78.00</p>
+                        <button onclick="addToCart()">Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="../images/search_results12-desktop.png" alt="search_results12-desktop">
+                        <p>Ticket To Ride</p>
+                        <p id="typyface">$ 25.00</p>
+                        <button onclick="addToCart()">Add to Cart</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Desktop bottom page -->
+        <div class="page_desktop">
+            <span>&lt;&nbsp;Previous&nbsp;</span>
+            <span class="number_desktop">1</span>
+            <span class="number_desktop">2</span>
+            <span class="number_desktop">3</span>
+            <span class="number_desktop">4</span>
+            <span>&nbsp;Next&nbsp;&gt;</span>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="../js/footer.js"></script>
+<script type="text/javascript" src="../js/product_listing.js"></script>
+
+</html>
