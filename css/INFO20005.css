@@ -266,6 +266,9 @@
     transform: rotate(180deg);
 }
 
+
+/* Mobile version */
+
 @media screen and (max-width:1200px) {
     /* Common Use */
     .navigation_bar ul a {
@@ -1597,6 +1600,9 @@
         width: 100%;
     }
 }
+
+
+/* Desktop version */
 
 @media screen and (min-width:1200px) {
     /* Common Use */
